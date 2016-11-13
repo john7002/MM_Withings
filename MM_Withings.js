@@ -80,7 +80,7 @@ Module.register('MM_Withings', {
     this.α++;
     this.α %= 360;
     var r = (this.α * Math.PI / 180);
-    
+
     if (r === 0) {
       // refresh data
       this.updateLoad();
@@ -129,7 +129,7 @@ Module.register('MM_Withings', {
           url: base+base2,
           data: this.config.api.authPayload.format(
               this.config.oauth_consumer_key,
-              this.config.oauth_nonce,
+              Array(32+1).join((Math.random().toString(36)+'00000000000000000').slice(2, 18)).slice(0, 32),
               this.config.oauth_signature)+
               this.config.api.authPayload2.format(
               Date.now(),
