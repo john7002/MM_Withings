@@ -1,3 +1,5 @@
+# MM_Withings module for MagicMirror
+
 A simple MagicMirror module to collect data from Withings devices.
 
 ## How to use it?                                                                                                                                           
