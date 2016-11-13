@@ -2,6 +2,8 @@
 
 A simple MagicMirror module to collect data from Withings devices and display related information (weight, sleep, steps etc.).
 
+![MM_Withings ](https://github.com/john7002/MM_Withings/.ressources/preview.png)    
+
 ## How to use it?                                                                                                                                           
 
 To use this module, you first need [MagicMirror](https://github.com/MichMich/MagicMirror) and a Withings account.
