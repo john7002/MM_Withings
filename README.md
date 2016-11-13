@@ -15,9 +15,9 @@ Create a developer app from [Withings partner app](http://oauth.withings.com/par
 	- API Secret
 	
 	This api website from [Withings](http://oauth.withings.com/api) will help you to get additional informations regarding your Withings account. Please note:
-		- oauth_signature
-		- oauth_token
-		- clientID
+	- oauth_signature
+	- oauth_token
+	- clientID
 		
 		In you config/config.js file, declare the module:
 ```
