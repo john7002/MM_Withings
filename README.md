@@ -8,8 +8,8 @@ Currently display: weight, fat percentage, steps, distance, light sleep duration
 
 - weight: Last update uploaded to Withings account.
 - fat percentage: Last update uploaded to Withings account.
-- step: display current date number of steps.
-- distance: display current date of current date.
+- step: display today number of steps.
+- distance: display today distance.
 - light sleep duration: display last light sleep duration synchronized from last 7 days.
 - deep sleep duration: display last deep sleep duration synchronized from last 7 days.
 
