@@ -4,11 +4,20 @@ A simple MagicMirror module to collect data from Withings devices and display re
 
 ![MM_Withings ](https://github.com/john7002/MM_Withings/blob/master/.ressources/module_preview.png)    
 
+Currently display: weight, fat percentage, steps, distance, light sleep duration, deep sleep duration.
+
+- weight: Last update uploaded to Withings account.
+- fat percentage: Last update uploaded to Withings account.
+- step: display current date number of steps.
+- distance: display current date of current date.
+- light sleep duration: display last light sleep duration synchronized from last 7 days.
+- deep sleep duration: display last deep sleep duration synchronized from last 7 days.
+
 ## How to use it?                                                                                                                                           
 
 To use this module, you first need [MagicMirror](https://github.com/MichMich/MagicMirror) and a Withings account.
 
- -1) Create a folder MM_Withings in your module folder
+-1) Create a folder MM_Withings in your module folder
 -2) Then run : ' git clone https://github.com/john7002/MM_Withings '
 
 ### Configuration
