@@ -27,6 +27,8 @@ This api website from [Withings](http://oauth.withings.com/api) will help you to
 - oauth_signature
 - oauth_token
 - clientID
+
+At step1, leave the field "Callback URL" blank.
 		
 In you config/config.js file, declare the module:
 ```
